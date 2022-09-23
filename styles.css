@@ -1,0 +1,103 @@
+html{--color_border:#e5e5e5;
+    --color_blue:#0284c7;
+    --color_gray:#d4d4d4;
+    --color-white:white}
+*{box-sizing: border-box}
+body {background-color: 
+    #f5f5f5;
+    display: flex;
+    justify-content: center;}
+.registration {font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--color-white);
+    max-width: 1024px;
+    margin: 100px auto;
+    border: 1px solid none;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px -5px var(--color_gray);
+    box-sizing: border-box}
+.img_mountains {object-fit: fill;
+    width: calc(100%/12*6);
+    border: 1px solid none;
+    border-radius: 10px;}
+.registration__form { display: flex;
+    flex-direction: column;
+    width: calc(100%/12*6);
+    padding: 40px;}
+.header {color: var(--color_blue);
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 20px;}
+.registration__form_names{display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 10px 0;}
+.registration__form_name{display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+    width: calc(100%/12*6);}
+.registration__form_second_name{display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    width: calc(100%/12*6);}   
+.registration__form_mail{display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+    justify-content: flex-start;}
+.registration__form_mail_email{display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+    width: calc(100%/12*6);}
+.registration__form_mail_phone{display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    width: calc(100%/12*6);}
+.main{width:margin-top: 5px;}       
+.form {border: 1px solid var(--color_gray);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 5px;}
+.form:focus{outline: 2px solid var(--color_blue);}
+label{font-size: 14px;}
+
+.line {margin: 20px 0;
+    border: 1px solid var(--color_border);}
+.title{font-size: 18px;
+    margin: 10px 0;}
+.registration__form_address{display: flex;
+    flex-direction: row;
+    margin: 10px 0;}
+.country{display: flex;
+    flex-direction: column;
+    width: calc(100%/12*4);}
+.city {margin: 0 10px;}
+.registration__form_address2{display: flex;
+    flex-direction: column;}
+.registration__form_account{background-color: #0ea5e9;
+    color: var(--color-white);
+    font-size: 15px;
+    white-space:nowrap;
+    cursor: pointer;
+    transition: background-color 500ms linear;}
+.registration__form_account:hover{background-color: var(--color_blue);}
+.registration__form_address2{margin: 10px 0;}
+.text{color:    #404040;
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-weight:200}
+.registration__form_push{margin: 5px 0;}
+.checkbox{appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 1px solid var(--color_border);}
+.checkbox:checked{background-color: #0ea5e9;
+    outline: 1px solid var(--color_blue);
+    background-image: url('check_mark_icon.png');
+    background-position: center;
+    background-size: contain;}
+
+
+
+
+
